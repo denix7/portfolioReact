@@ -4,6 +4,7 @@ import Repo from "../components/repo";
 export default() => {
 
     const [repos, setRepos] = useState([]);
+    const [reposCount, setReposCount] = useState([]);
 
     useEffect(()=> {
         let myRepos;
@@ -11,12 +12,17 @@ export default() => {
         
         if(data){
             myRepos = JSON.parse(data);
+
+            setReposCount(myRepos.length);
+            myRepos = myRepos.slice(1,22);
+
             return setRepos(myRepos);
         }
 
         async function fetchRepos() {
             const res = await fetch("https://api.github.com/users/denix7/repos");
             myRepos = await res.json();
+            setReposCount(myRepos.length);
 
             sessionStorage.setItem("repositories", JSON.stringify(myRepos));
 
@@ -28,7 +34,7 @@ export default() => {
     }, []);
 
     return (
-    <div className="max-w-4xl mx-auto">
+    <div className="max-w-4xl mx-auto mt-12">
         <header className="text-center">
             <h2 className="text-3xl font-bold">Hecha un vistazo a mi repositorio</h2>
             <p>Github</p>
@@ -42,5 +48,11 @@ export default() => {
                 })
             }
         </ul>
+
+        <div className="btn text-center mt-8">
+            <a href="https://github.com/denix7" className="btn" target="_blank" rel="noopener noreferrer">
+                Ver mas en github ({reposCount})
+            </a> 
+        </div>
     </div>
 )}
