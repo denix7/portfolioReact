@@ -6,10 +6,19 @@ export default() => {
     const [repos, setRepos] = useState([]);
 
     useEffect(()=> {
+        let myRepos;
+        const data = sessionStorage.getItem("repositories");
+        
+        if(data){
+            myRepos = JSON.parse(data);
+            return setRepos(myRepos);
+        }
 
         async function fetchRepos() {
             const res = await fetch("https://api.github.com/users/denix7/repos");
-            let myRepos = await res.json();
+            myRepos = await res.json();
+
+            sessionStorage.setItem("repositories", JSON.stringify(myRepos));
 
             setRepos(myRepos);
         }
