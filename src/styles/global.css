@@ -7,3 +7,14 @@
 .btn{
     @apply bg-purple-500 ml-4 text-white font-bold rounded border-purple-700 py-2 px-4 border-b-4; 
 }
+
+.repos-list{
+    columns: 3;
+    -moz-columns: 3;
+    column-rule: 2px solid #6B46C1;
+    @apply px-4 my-2;
+}
+
+.repos-list li{
+    break-inside: avoid-column;
+}
