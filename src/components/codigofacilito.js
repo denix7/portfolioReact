@@ -1,5 +1,7 @@
 import React from "react";
 import { useStaticQuery, graphql} from 'gatsby';
+import Posts from './posts';
+import Certificate from './certificate';
 
 export default() => {
     const data = useStaticQuery(graphql`{
@@ -16,20 +18,17 @@ export default() => {
           }
 
     }`);
-
+console.log(data);
     return (
         <section>
             <div className="max-w-4xl mx-auto">
-                <h2 className="text-3xl font-bold mt-12 text-center">Cursos</h2>
-                <div>
-                    {data.cfJson.data.finished_courses.map((course) => (
-                        <div key={course.url} className="shadow bg-purple mr-4 mt-10 text-center mb-12">
-                            <div className="m-2 font-bold">{course.title}</div>
-                            <a href={course.url} className="p-2 bg-purple-200 text-purple-700">{course.url}</a>
-                        </div> 
 
-                    ))}
-                </div>
+                <Posts
+                    data={data.cfJson.data.finished_courses}
+                    title="Cursos"
+                    card={Certificate}
+                />
+
             </div>
         </section>
     )
