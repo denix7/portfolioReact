@@ -18,7 +18,7 @@ export default() => {
           }
 
     }`);
-console.log(data);
+    
     return (
         <section>
             <div className="max-w-4xl mx-auto">
