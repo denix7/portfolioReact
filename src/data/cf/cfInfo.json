@@ -1,0 +1,116 @@
+{
+    "data": {
+    "email": "dennis.brian.pv@gmail.com",
+    "username": "denix7",
+    "certificates": [ ],
+    "articles": [ ],
+    "courses": [
+    {
+    "title": "Curso de Bootstrap 2 Gratis",
+    "progress": "0.0",
+    "url": "http://codigofacilito.com/courses/bootstrap-2"
+    },
+    {
+    "title": "Curso de NodeJS Gratis",
+    "progress": "2.0",
+    "url": "http://codigofacilito.com/courses/nodejs"
+    },
+    {
+    "title": "Curso de javaScript Gratis",
+    "progress": "0.0",
+    "url": "http://codigofacilito.com/courses/javascript"
+    },
+    {
+    "title": "Curso de AngularJS Gratis",
+    "progress": "4.0",
+    "url": "http://codigofacilito.com/courses/angularjs"
+    },
+    {
+    "title": "Curso de Materialize",
+    "progress": "28.0",
+    "url": "http://codigofacilito.com/courses/materialize"
+    },
+    {
+    "title": "Curso de Desarrollo Web Frontend",
+    "progress": "11.0",
+    "url": "http://codigofacilito.com/courses/diseno-web-frontend-2016"
+    },
+    {
+    "title": "Curso para crear una API con NodeJS",
+    "progress": "22.0",
+    "url": "http://codigofacilito.com/courses/node-bdd"
+    },
+    {
+    "title": "Curso de SEO: Aprende a posicionar tu sitio en buscadores",
+    "progress": "26.0",
+    "url": "http://codigofacilito.com/courses/seo"
+    },
+    {
+    "title": "Curso de Diseño Web Frontend",
+    "progress": "0.0",
+    "url": "http://codigofacilito.com/courses/frontend_w"
+    },
+    {
+    "title": "Curso de Desarrollo Tiendas en línea",
+    "progress": "0.0",
+    "url": "http://codigofacilito.com/courses/desarrollo-ecommerce"
+    },
+    {
+    "title": "Curso para crear tu propia web app de mensajería",
+    "progress": "2.0",
+    "url": "http://codigofacilito.com/courses/msn"
+    },
+    {
+    "title": "Curso de controles y efectos Frontend",
+    "progress": "0.0",
+    "url": "http://codigofacilito.com/courses/controles-efectos-frontend"
+    },
+    {
+    "title": "Curso de Patrones de Diseño con JAVA",
+    "progress": "7.0",
+    "url": "http://codigofacilito.com/courses/patrones-diseno"
+    },
+    {
+    "title": "Curso de Ionic desde 0",
+    "progress": "8.0",
+    "url": "http://codigofacilito.com/courses/ionic-v4"
+    },
+    {
+    "title": "Taller de Notificaciones Push con Ionic",
+    "progress": "100.0",
+    "url": "http://codigofacilito.com/courses/ionic-notificaciones-push"
+    },
+    {
+    "title": "Curso para crear mi primera página web",
+    "progress": "0.0",
+    "url": "http://codigofacilito.com/courses/primera-pagina-2019"
+    },
+    {
+    "title": "Curso para desarrollar servicios web REST con Nodejs",
+    "progress": "4.0",
+    "url": "http://codigofacilito.com/courses/nodejs-servicios-web"
+    },
+    {
+    "title": "Crea un sitio personal con Gatsby",
+    "progress": "100.0",
+    "url": "http://codigofacilito.com/courses/sitio-persional-gatsby"
+    },
+    {
+    "title": "Curso para crear un ecommerce serverless con Gatsby",
+    "progress": "0.0",
+    "url": "http://codigofacilito.com/courses/serverless-ecommerce"
+    }
+    ],
+    "finished_courses": [
+    {
+    "title": "Taller de Notificaciones Push con Ionic",
+    "url": "http://codigofacilito.com/courses/ionic-notificaciones-push"
+    },
+    {
+    "title": "Crea un sitio personal con Gatsby",
+    "url": "http://codigofacilito.com/courses/sitio-persional-gatsby"
+    }
+    ]
+    },
+    "errors": [ ]
+}
