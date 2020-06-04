@@ -1,5 +1,5 @@
 import React from "react";
-import ilustration from '../assets/img/bg.svg';
+import ilustration from '../assets/img/bg.png';
 import Form from "./contact.form";
 
 export default () => (
@@ -10,7 +10,7 @@ export default () => (
                     <h1 className="font-bold text-purple-700 text-4xl">Hola! soy Dennis</h1>
                     <p className="text-xl font-light">Desarrollador web</p>    
                 </div>
-                <img src={ilustration} alt="background" style={{height:"350px"}}></img>
+                <img src={ilustration} alt="background" className="bg"></img>
             </div>
             
             <div>

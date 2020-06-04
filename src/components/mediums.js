@@ -29,7 +29,7 @@ export default() => {
     }, [])
 
     return(
-        <div className="max-w-4xl mx-auto text-center overflow-x-scroll">
+        <div className="text-center">
             <Posts
                 data={posts}
                 title="Publicaciones en Medium"

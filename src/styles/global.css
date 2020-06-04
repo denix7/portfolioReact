@@ -4,6 +4,18 @@
 
 @tailwind utilities;
 
+.bg{
+    width:600px;
+    height: 400px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 1024px){
+    .bg{
+        width:250px;
+        height: 200px;
+    }        
+}
+
 .btn{
     @apply bg-purple-500 ml-4 text-white font-bold rounded border-purple-700 py-2 px-4 border-b-4; 
 }
@@ -18,3 +30,27 @@
 .repos-list li{
     break-inside: avoid-column;
 }
+
+body::-webkit-scrollbar{
+    width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track{
+    background: #E9D8FD;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #8D47D0;
+  }
+
+.overflow-x-scroll::-webkit-scrollbar{
+    height: 0.25rem;
+}
+
+.overflow-x-scroll::-webkit-scrollbar-track{
+    background: #E9D8FD;
+}
+
+.overflow-x-scroll::-webkit-scrollbar-thumb {
+    background: #8D47D0;
+  }
